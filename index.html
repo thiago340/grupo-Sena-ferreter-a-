@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write to File with Kotlin</title>
+    <script src="kotlin.js"></script>
+</head>
+<body>
+    <h1>Write to File Example</h1>
+    <textarea id="content" rows="10" cols="30" placeholder="Enter content here..."></textarea><br>
+    <button onclick="writeToFile()">Write to File</button>
+    
+    <script>
+        function writeToFile() {
+            var content = document.getElementById("content").value;
+            kotlin.com.example.writeToFile(content);
+        }
+    </script>
+</body>
+</html>
