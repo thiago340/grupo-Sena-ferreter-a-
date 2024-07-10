@@ -1,13 +1,3 @@
-package com.example
+usuaruio: Santiago Herrera Duran
 
-import kotlin.browser.document
-import org.w3c.xhr.XMLHttpRequest
-
-fun writeToFile(content: String) {
-    val xhr = XMLHttpRequest()
-    xhr.open("POST", "/write")
-    xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8")
-    xhr.send(JSON.stringify(ContentData(content)))
-}
-
-data class ContentData(val content: String)
+correo:santiago12342003@gmail.com
